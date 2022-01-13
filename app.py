@@ -10,6 +10,7 @@ st.set_page_config(
 	page_icon = "🔍"
 )
 
+st.title("Wordle Solver")
 st.write("By Jonathan Ngo")
 
 english_words = pickle.load(open("english_5_letter_words.pickle", "rb"))
